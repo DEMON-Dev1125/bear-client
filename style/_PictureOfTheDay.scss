@@ -1,0 +1,58 @@
+.potd-container {
+  width: 100%;
+
+  .iframe-container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 2em;
+    max-width: 600px;
+
+    .daily-media {
+      width: 100%;
+    }
+  }
+
+  h2, h3 {
+    text-align: center;
+  }
+
+  h2 {
+    line-height: 1.4;
+    padding-bottom: 15px;
+  }
+
+  hr {
+    width: 60%;
+  }
+
+  .description {
+    img {
+      max-width: 600px;
+      height: auto;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      padding: 1em;
+    }
+
+    p {
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.6;
+      text-align: center;
+    }
+  }
+}
+
+@media(max-width: 767px) {
+  .container {
+    .description {
+      p {
+        width: 100%;
+      }
+    }
+  }
+}
